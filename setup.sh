@@ -1,1 +1,1 @@
-for i in $(ls faces);do mkdir $(basename $i .jpg);done;
+for i in $(ls faces);do mkdir $(basename ${i%.*}) ;done;
