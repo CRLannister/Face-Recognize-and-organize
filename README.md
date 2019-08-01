@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Face_Recogintion and Face_Sort
 Sorting Pictures from a folder containing multiple pictures according to person into specific person_folder.
 
@@ -8,6 +9,19 @@ Sorting Pictures from a folder containing multiple pictures according to person 
 	* `chmod +x setup.sh`
 
 3. finally run face_sort.py
+=======
+# Sorting Pictures from a folder according to person into person_folder
+
+## Put pictures of people you want to sort in faces and name them according to their name...note: for simplicity, pictures in faces folder be in .jpg format...
+
+## Then run setup.sh ... make sure it is executable...
+
+chmod +x setup.sh
+
+## finally run face_sort.py
+
+python3 face_sort.py pictures_folder_name
+>>>>>>> 476a1f0a7eaab599f8ab5b5d1e91b62f4db1f836
 
 	* `python3 face_sort.py pictures_folder_name`
 
