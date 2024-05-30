@@ -1,14 +1,33 @@
 # Face_Recogintion and Face_Sort  
 Sorting Pictures from a folder containing multiple pictures according to person into specific person_folder.  
 
-## How to execute  
-1. Put pictures of people you want to sort in faces and name them according to their name...  
+## How to Execute
+### Step 1: Prepare the Pictures
 
-2. Then run setup.sh ... make sure it is executable...  
-	* `chmod +x setup.sh`
+Place the pictures of individuals you want to sort into a folder named faces. Ensure each picture is named according to the person's name to facilitate the sorting process.
 
-3. finally run face_sort.py  
-	* `python3 face_sort.py pictures_folder_name` 
+###Step 2: Run the Setup Script
 
-## Note:-  
-As per the size of files and quantity of files, it might take a while.Also, code is written to work only for .png and .jpg files.One can edit code for other extensions as well..
+Make sure the setup script is executable, then run it to set up the necessary environment and dependencies.
+
+```
+chmod +x setup.sh
+./setup.sh
+```
+
+### Step 3: Execute the Sorting Script
+
+Run the face sorting script with the name of the folder containing the pictures you want to sort.
+
+```
+python3 face_sort.py pictures_folder_name
+```
+
+## Important Notes
+
+   - The sorting process may take some time, depending on the number and size of the files.
+   - The current code is designed to work only with .png and .jpg files. You can modify the code to support other file extensions if needed.
+
+## Summary
+
+The Face_Recognition and Face_Sort project simplifies the task of organizing photos by utilizing face recognition to sort images into respective folders based on the individuals in them. This project provides a practical solution for managing photo collections efficiently.
