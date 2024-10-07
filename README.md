@@ -6,7 +6,7 @@ Sorting Pictures from a folder containing multiple pictures according to person 
 
 Place the pictures of individuals you want to sort into a folder named faces. Ensure each picture is named according to the person's name to facilitate the sorting process.
 
-###Step 2: Run the Setup Script
+### Step 2: Run the Setup Script
 
 Make sure the setup script is executable, then run it to set up the necessary environment and dependencies.
 
